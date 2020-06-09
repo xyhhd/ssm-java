@@ -24,6 +24,7 @@ public class UserController {
         System.out.println(list);
         modelAndView.addObject(list);
         modelAndView.setViewName("success");
+        System.out.println(233);  //假装有新功能
         return modelAndView;
     }
 }
